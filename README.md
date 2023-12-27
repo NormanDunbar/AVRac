@@ -28,10 +28,10 @@ To install this library for a single project:
 * Edit the `platformio.ini` file, and add:
 
   ```
-  lib_deps = https://github.com/NormanDunbar/AVRac^1.0.0
+  lib_deps = https://github.com/NormanDunbar/AVRac#1.0.1
   ```
 
-  This will ensure that you only pick up tagged versions from 1.0.0 and above, and not the contents of the development files which might be broken. 
+  This will ensure that you only pick up tagged version 1.0.1, and not the contents of any development files in the repo which might be broken. Obvioulsy, change the version to suit the tagged releasde that you wish to install.
 
 
 Norman Dunbar
