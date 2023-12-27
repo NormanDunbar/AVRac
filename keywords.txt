@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Classes (KEYWORD1)
+#######################################
+AVRac	KEYWORD1
+AVR_ac	KEYWORD1
+
+#######################################
+# Class Methods & Functions (KEYWORD2)
+#######################################
+onInterrupt	KEYWORD2
+interrupt	KEYWORD2
+begin	KEYWORD2
+enable	KEYWORD2
+disable	KEYWORD2
+onInterruptTriggered	KEYWORD2
+
+
+######################################
+# Others Constants (LITERAL1)
+#######################################
+trigger_t	LITERAL1
+refVoltage_t	LITERAL1
+testVoltage_t	LITERAL1
+inputCapture_t	LITERAL1
+
+TRGR_LOW	LITERAL1
+TRGR_CHANGE	LITERAL1
+TRGR_FALLING	LITERAL1
+TRGR_RISING	LITERAL1
+VREF_INTERNAL	LITERAL1
+VREF_EXTERNAL	LITERAL1
+VTEST_A0_PC0	LITERAL1
+VTEST_A1_PC1	LITERAL1
+VTEST_A2_PC2	LITERAL1
+VTEST_A3_PC3	LITERAL1
+VTEST_A4_PC4	LITERAL1
+VTEST_A5_PC5	LITERAL1
+VTEST_A6	LITERAL1
+VTEST_A7	LITERAL1
+VTEST_D7_AIN1	LITERAL1
+INPUTCAPT_OFF	LITERAL1
+INPUTCAPT_ON	LITERAL1
+

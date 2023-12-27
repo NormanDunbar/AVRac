@@ -1,0 +1,11 @@
+This example demonstrates the Analog Comparator comparing 1.1V from
+the internal bandgap voltage reference with whatever voltage is on
+pin AIN1/D7/PD7. That pin is connected to a potentiometer and can
+vary from 0 to 5V.
+
+If AIN1/D7/PD7 is less than 1.1V the LED will light.
+
+If AIN1/D7/PD7 is equal or more than 1.1V the LED will extinguish.
+
+Enjoy!
+

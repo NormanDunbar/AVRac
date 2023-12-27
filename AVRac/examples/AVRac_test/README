@@ -1,0 +1,10 @@
+This example demonstrates the Analog Comparator comparing 3.3V on
+pin AIN0/D6/PD6 with whatever voltage is on pin AIN1/D7/PD7. That pin
+is connected to a potentiometer and can vary from 0 to 5V.
+
+If AIN1/D7/PD7 is less than 3.3V the LED will light.
+
+If AIN1/D7/PD7 is equal or more than 3.3V the LED will extinguish.
+
+Enjoy!
+
