@@ -2,7 +2,7 @@
 
 The `AVR_ac` library provides a simple interface to the Analog Comparator interrupt on an Arduino running with an ATmega328P and *probably* works on an ATmega168 as well -- they are extremely similar.
 
-The code has been tested on projects created in the Arduino IDE version 1.8.13, and also in PlatformIO (platformio.org), with no problems on either system.
+The code has been tested on projects created in the Arduino IDE version 1.8.13, and also in PlatformIO (platformio.org), with no problems on either system. *However*, the library as supplied is not in the correct format form PlatformIO projects---but you can extract all the source files from the `src` directory, and add those to your project.
 
 ## Arduino
 
@@ -16,22 +16,12 @@ To install the library:
 
 ## PlatformIO
 
-As of the time of typing, I have not built this library into a format suitable for uploading to the official PlatformIO Library Registry. 
+As of the time of typing, I have not built this library into a format suitable for uploading to the official PlatformIO Library Registry.
 
-This means you have a couple of simple options, as described below.
-
-### Install per Project
-
-To install this library for a single project:
-
-* Create the project in the normal manner.
-* Edit the `platformio.ini` file, and add:
-
-  ```
-  lib_deps = https://github.com/NormanDunbar/AVRac#1.0.1
-  ```
-
-  This will ensure that you only pick up tagged version 1.0.1, and not the contents of any development files in the repo which might be broken. Obvioulsy, change the version to suit the tagged releasde that you wish to install.
+* Unzip the downloaded zip file.
+* In your project's directory, create a new directory under `lib`, named `AVRac`.
+* Copy files from the `src` directory *of the extracted zip file* to thie new directory you created above.
+* That's it. You only need to `#include` the appropriate header file in your code, and the library will be used without requiring any `lib_deps` settings. Easy!
 
 
 Norman Dunbar
