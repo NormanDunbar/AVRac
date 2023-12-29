@@ -18,23 +18,19 @@ To install the library:
 
 As of the time of typing, I have not built this library into a format suitable for uploading to the official PlatformIO Library Registry. 
 
-This means you have a couple of simple options, as described below.
+This means you have to proceed as described below.
 
-### Install per Project
+### Install into a Project
 
 To install this library for a single project:
 
 * Create the project in the normal manner.
-* Edit the `platformio.ini` file, and add:
-
-  ```
-  lib_deps = https://github.com/NormanDunbar/AVRac^1.0.0
-  ```
-
-  This will ensure that you only pick up tagged versions from 1.0.0 and above, and not the contents of the development files which might be broken. 
-
+* Create directory `lib/AVR_ac`.
+* Unzip the latest releases Zip file.
+* Uncompress it somewhere safe.
+* Copy the contents of the `src` directory from the downlaod to the new directory you c reated above.
+* That's it. You will not need any `lib_deps` to use the library.
 
 Norman Dunbar
-norman@dunbar-it.co.uk
 
 27 October 2020.
